@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPTD Pengelolaan Parkir</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Logo_of_the_Ministry_of_Transportation_of_the_Republic_of_Indonesia.svg" width="28" height="30" class="d-inline-block align-text-top" />
+          Gedung Parkir Klandasan.
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ul-link">
+            <li class="nav-item">
+              <a class="nav-link link" href="#jadwal">Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#ruangan">Ruangan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NavE -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h3 class="display-5 fw-bold">Jadwal Pemakaian Gedung</h3>
+        <h5 class="fst-italic">Rencanakan kegiatan anda dengan kami</h5>
+        <div class="container pb-3"></div>
+        <a href="#jadwal">
+          <button type="button" class="btn btn-warning btn-lg">Cek Tanggalmu !</button>
+        </a>
+      </div>
+    </div>
+    <!-- Galery -->
+    <div class="container pt-5 pb-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom fw-bold">Gallery</h2>
+      <div class="row row-cols-1 pt-4 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/2.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/3.jpg" class="card-img-top" alt="Palm Springs Road" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/4.jpg" class="card-img-top" alt="Los Angeles Skyscrapers" />
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 pt-4 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/5.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/2.jpg" class="card-img-top" alt="Palm Springs Road" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/Picture/5.jpg" class="card-img-top" alt="Los Angeles Skyscrapers" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jadwal -->
+    <div class="container-fluid jadwal pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-5 fw-bold" id="jadwal">Jadwal Pemakaian Gedung</h2>
+        <p class="fs-5 text-muted pb-3">berikut jadwal pemakaian gedung klandasan sampai dengan hari ini, silahkan cek ketersediaan tanggalnya.</p>
+        <div class="container-lg ratio ratio-4x3">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FMakassar&showTz=0&showCalendars=0&showPrint=0&showTabs=0&src=MDM4MDNhYWJjN2FlOWNlNzEzNzU5Yzg2NmI5NGJkNTM3NzVkNjYxYzBlYWZhMDBlYzRkZjJhNmYyM2FlZjA1NUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23A79B8E&color=%230B8043"
+            style="border-width: 0"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Ruangan -->
+    <div class="container-fluid ruangan pt-5">
+      <div class="container text-center">
+        <h2 class="display-5 fw-bold" id="ruangan">Tarif Pemakaian Ruangan</h2>
+        <p class="fs-5 text-muted">Tarif Pemakaian Ruangan sesuai dengan Perda Nomor 8 Tahun 2024 Kota Balikpapan</p>
+        <div class="container py-3">
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="py-3">
+                  <h3 class="my-0 fw-bold text-center">Tarif Pemakaian 1 Ruangan</h3>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title pricing-card-title text-start">Keterangan :</h4>
+                  <ul class="list-unstyled mt-3 mb-4 text-start">
+                    <li>Tarif yang berlaku untuk pemakaian 1 ruangan pada hari kerja.</li>
+                    <li>-. Pagi ( 08.00 s/d 15.00 Wita )</li>
+                    <li>-. Malam ( 17.00 s/d 22.00 Wita )</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-bolder">Morning Hours</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title fst-italic fw-lighter">Rp. 4.000.000,-</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><span class="fw-bold">70</span> Kursi</li>
+                    <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                    <li><span class="fw-bold">6</span> Unit Standing AC 5PK</li>
+                    <li><span class="fw-bold">3</span> Unit Lift</li>
+                    <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                    <li class="fw-bolder">Free Wifi</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-bolder">Night Hours</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title fst-italic">Rp. 5.000.000,-</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><span class="fw-bold">70</span> Kursi</li>
+                    <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                    <li><span class="fw-bold">6</span> Unit Standing AC 5PK</li>
+                    <li><span class="fw-bold">3</span> Unit Lift</li>
+                    <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                    <li class="fw-bolder">Free Wifi</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ruangan2 -->
+    <div class="container">
+      <div class="container py-3">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="py-3">
+                <h3 class="my-0 fw-bold text-center">Tarif Pemakaian 2 Ruangan</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title pricing-card-title text-start">Keterangan :</h4>
+                <ul class="list-unstyled mt-3 mb-4 text-start">
+                  <li>Tarif yang berlaku untuk pemakaian 2 ruangan pada hari kerja.</li>
+                  <li>-. Pagi ( 08.00 s/d 15.00 Wita )</li>
+                  <li>-. Malam ( 17.00 s/d 22.00 Wita )</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-bolder">Morning Hours</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title fst-italic fw-lighter">Rp. 6.000.000,-</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><span class="fw-bold">140</span> Kursi</li>
+                  <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                  <li><span class="fw-bold">12</span> Unit Standing AC 5PK</li>
+                  <li><span class="fw-bold">3</span> Unit Lift</li>
+                  <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                  <li class="fw-bolder">Free Wifi</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-bolder">Night Hours</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title fst-italic">Rp. 7.000.000,-</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><span class="fw-bold">140</span> Kursi</li>
+                  <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                  <li><span class="fw-bold">12</span> Unit Standing AC 5PK</li>
+                  <li><span class="fw-bold">3</span> Unit Lift</li>
+                  <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                  <li class="fw-bolder">Free Wifi</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ruangan3 -->
+    <div class="container">
+      <div class="container py-3">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="py-3">
+                <h3 class="my-0 fw-bold text-center">Tarif Pemakaian Ruangan untuk Hari Sabtu dan Minggu Serta Hari Libur Nasional</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title pricing-card-title text-start">Keterangan :</h4>
+                <ul class="list-unstyled mt-3 mb-4 text-start">
+                  <li>Tarif yang berlaku untuk pemakaian ruangan pada hari kerja.</li>
+                  <li>-. Pagi ( 08.00 s/d 15.00 Wita )</li>
+                  <li>-. Malam ( 17.00 s/d 22.00 Wita )</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-bolder">Pemakaian 1 Ruangan</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title fst-italic fw-lighter">Rp. 6.500.000,-</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><span class="fw-bold">70</span> Kursi</li>
+                  <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                  <li><span class="fw-bold">6</span> Unit Standing AC 5PK</li>
+                  <li><span class="fw-bold">3</span> Unit Lift</li>
+                  <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                  <li class="fw-bolder">Free Wifi</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-bolder">Pemakaian 2 Ruangan</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title fst-italic">Rp. 8.000.000,-</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li><span class="fw-bold">140</span> Kursi</li>
+                  <li><span class="fw-bold">10</span> Unit Free Parkir Kendaraan</li>
+                  <li><span class="fw-bold">12</span> Unit Standing AC 5PK</li>
+                  <li><span class="fw-bold">3</span> Unit Lift</li>
+                  <li>(<span class="fw-bold">2</span> Unit Lift Passenger & <span class="fw-bold">1</span> Unit Lift Service)</li>
+                  <li class="fw-bolder">Free Wifi</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Book Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Kontak -->
+    <div class="container-fluid ruangan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-5 fw-bold" id="kontak">Kontak Kami</h2>
+        <p class="fs-5 text-muted">Anda dapat menggunakan formulir ini untuk komentar atau pertanyaan tentang seputar penyewaan gedung.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="ratio" style="--bs-aspect-ratio: 40%">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8274713192222!2d116.82807008505226!3d-1.2769497322755097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df14724cabe1e2b%3A0xb70c73622cba21ae!2sGedung%20Klandasan!5e0!3m2!1sen!2sid!4v1708952907822!5m2!1sen!2sid"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="map"
+                ></iframe>
+              </div>
+              <div class="row">
+                <ul class="list-unstyled mt-3 mb-4 text-start fst-italic">
+                  <li>Alamat :</li>
+                  <li>Jl. Jend. Sudriman No. 09 RT. 29 (Gedung Parkir Klandasan) Lt. Dasar</li>
+                  <li>Kelurahan Klandasan Ulu, Kecamatan Balikpapan Kota</li>
+                  <li>Kota Balikpapan, Kalimantan Timur 76112</li>
+                  <h2></h2>
+                  <li>Email :</li>
+                  <li>uptparkirbpn@gmail.com</li>
+                  <h2></h2>
+                  <li>Whatsapp :</li>
+                  <li><a href="https://api.whatsapp.com/send/?phone=%2B628170065600&text&type=phone_number&app_absent=0">+62 817-0065-600</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <form name="form-pesan">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Nama Lengkap</span>
+                  <input type="text" class="form-control" placeholder="Nama Lengkap" id="Nama Lengkap" aria-label="Nama Lengkap" aria-describedby="basic-addon1" name="Nama Lengkap" />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon2">No. Telepon / WA</span>
+                  <input type="tel" class="form-control" value="+62" placeholder="No. Telepon / Whatsapp" id="No. Telepon / WA" aria-label="No. Telepon / WA" aria-describedby="basic-addon2" name="No. Telepon / WA" />
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email" id="Email" aria-label="email" aria-describedby="basic-addon3" name="Email" />
+                  <span class="input-group-text" id="basic-addon3">@example.com</span>
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon4" style="align-items: first baseline">Pesan</span>
+                  <textarea class="form-control" id="pesan" aria-label="With textarea" rows="5" name="Pesan"></textarea>
+                </div>
+                <div class="col-1 mb-2">
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- test -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-center text-white" style="background-color: #1c2331">
+      <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="row">
+          <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 pb-4 border-top">
+            <p>© 2024 Copyright | UPTD Pengelolaan Parkir.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-white" href="https://www.instagram.com/gedung.klandasan?igsh=YWh3MWc2b2xneTJk"><i data-feather="instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbykolt2U089scadyvMsTpbrnDbjt28kNa7wbbLgQ0Y_ukK08gDtbqJctnoYUpZNJxKw/exec";
+      const form = document.forms["form-pesan"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script>
+      ((g) => {
+        var h,
+          a,
+          k,
+          p = "The Google Maps JavaScript API",
+          c = "google",
+          l = "importLibrary",
+          q = "__ib__",
+          m = document,
+          b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}),
+          r = new Set(),
+          e = new URLSearchParams(),
+          u = () =>
+            h ||
+            (h = new Promise(async (f, n) => {
+              await (a = m.createElement("script"));
+              e.set("libraries", [...r] + "");
+              for (k in g)
+                e.set(
+                  k.replace(/[A-Z]/g, (t) => "_" + t[0].toLowerCase()),
+                  g[k]
+                );
+              e.set("callback", c + ".maps." + q);
+              a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+              d[q] = f;
+              a.onerror = () => (h = n(Error(p + " could not load.")));
+              a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+              m.head.append(a);
+            }));
+        d[l] ? console.warn(p + " only loads once. Ignoring:", g) : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
+      })({
+        key: "",
+        v: "weekly",
+        // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+        // Add other bootstrap parameters as needed, using camel case.
+      });
+    </script>
+  </body>
+</html>

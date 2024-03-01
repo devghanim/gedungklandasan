@@ -1,0 +1,24 @@
+.banner {
+  background: url("/Picture/1.JPG") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 32%;
+  color: #fff;
+}
+.re {
+  background: url("https://4kwallpapers.com/images/walls/thumbs_3t/4523.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 32%;
+  color: #fff;
+  color: rgba(1, 1, 1, 0.2);
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
