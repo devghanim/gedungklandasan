@@ -2,6 +2,7 @@
   display: grid;
   padding-top: 5%;
   padding-bottom: 5%;
+
   justify-content: center;
   grid-template-columns: repeat(6, 105px);
   grid-auto-rows: 105px;
